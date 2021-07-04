@@ -1,0 +1,90 @@
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  margin-top: 0px;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0px auto;
+  color: #4c4c6d;
+  line-height: 1;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25rem;
+  color: #4c4c6d;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #5f939a;
+}
+
+p {
+  color: #444444;
+}
+
+/*******************************************************CLASS SELECTORS***************************************************/
+
+.top-container {
+  background-color: #e8f6ef;
+  padding: 150px 0 50px 0;
+  position: relative;
+}
+
+.web {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 500px;
+  top: 200px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 500px;
+  bottom: 375px;
+}
+
+.profile-picture {
+  height: 200px;
+  width: auto;
+  border-radius: 50%;
+}
+
+.pizza-delivery {
+  height: 400px;
+  width: auto;
+  border-radius: 50%;
+
+  background-color: #ffe194;
+}
+
+.throwing-icon {
+  height: 400px;
+  width: auto;
+  border-radius: 50%;
+  background-color: #ffe194;
+}
+
+.footer-link {
+  color: #5f939a;
+}
+
+.aweb-developper {
+  font-weight: bold;
+}
+
+.btn {
+  color: #5f939a;
+}
+
+.get-in-touch {
+  font-size: 1.5rem;
+}
