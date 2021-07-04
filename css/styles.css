@@ -33,7 +33,6 @@ p {
 .top-container {
   background-color: #e8f6ef;
   padding: 150px 0 50px 0;
-  text-align: center;
   position: relative;
 }
 
@@ -53,9 +52,9 @@ p {
 }
 
 .bottom-cloud {
-  position: absolute;
-  left: 475px;
-  bottom: 425px;
+  position: relative;
+  right: 75px;
+  bottom: 350px;
 }
 
 .profile-picture {
@@ -93,4 +92,9 @@ p {
 
 .get-in-touch {
   font-size: 1.5rem;
+}
+
+.mountain1 {
+  position: relative;
+  right: 75px;
 }
