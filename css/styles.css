@@ -15,7 +15,7 @@ h1 {
 
 h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.25rem;
+  font-size: 2.5rem;
   color: #4c4c6d;
 }
 
@@ -26,6 +26,15 @@ h3 {
 
 p {
   color: #444444;
+  font-weight: 300;
+}
+
+hr {
+  border: none;
+  border-top: 5px dotted;
+  width: 60px;
+  color: grey;
+  margin: 4rem auto 4rem auto;
 }
 
 /*******************************************************CLASS SELECTORS***************************************************/
@@ -39,6 +48,9 @@ p {
 .skill-row {
   display: inline-block;
   width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
 }
 
 .web {
@@ -64,37 +76,48 @@ p {
 }
 
 .pizza-delivery {
-  height: 400px;
-  width: auto;
+  height: auto;
+  width: 25%;
   border-radius: 50%;
-
   background-color: #ffe194;
+  float: left;
+  margin-right: 30px;
 }
 
 .throwing-icon {
-  height: 400px;
-  width: auto;
+  height: auto;
+  width: 25%;
   border-radius: 50%;
   background-color: #ffe194;
+  float: right;
+  margin-left: 30px;
 }
 
 .footer-link {
   color: #5f939a;
 }
 
-.aweb-developper {
+.a-web-developper {
   font-weight: bold;
+  font-size: 1.25rem;
 }
 
 .btn {
   color: #5f939a;
 }
 
-.get-in-touch {
-  font-size: 1.5rem;
-}
-
 .mountain1 {
   position: relative;
   right: 75px;
+}
+.profile {
+  line-height: 2;
+}
+
+.hello-there {
+  font-size: 1.5rem;
+}
+
+.bottom-hr {
+  margin-top: 0px;
 }
