@@ -17,6 +17,7 @@ h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
   color: #4c4c6d;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -35,6 +36,10 @@ hr {
   width: 60px;
   color: grey;
   margin: 4rem auto 4rem auto;
+}
+
+a:hover {
+  color: #eaf6f6;
 }
 
 /*******************************************************CLASS SELECTORS***************************************************/
@@ -127,16 +132,7 @@ hr {
   margin-top: 0px;
 }
 
-.btn {
-  font-size: 1.25rem;
-  font-family: "Montserrat", sans-serif;
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
 .contact-me2 {
-  background-color: #5f939a;
   border-radius: 10px;
   padding: 10px 25px 10px 25px;
   margin: 0 auto 0 auto;
@@ -153,4 +149,53 @@ hr {
 }
 .signature {
   color: white;
+}
+
+/*.myButton {
+  background-color: #8cc0c2;
+  border-radius: 8px;
+  border: 1px solid #8cc0c2;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.myButton:hover {
+  background-color: #5f9395;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+} */
+
+.btn {
+  background: #90c1c2;
+  background-image: -webkit-linear-gradient(top, #90c1c2, #5f9395);
+  background-image: -moz-linear-gradient(top, #90c1c2, #5f9395);
+  background-image: -ms-linear-gradient(top, #90c1c2, #5f9395);
+  background-image: -o-linear-gradient(top, #90c1c2, #5f9395);
+  background-image: linear-gradient(to bottom, #90c1c2, #5f9395);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #badadb;
+  background-image: -webkit-linear-gradient(top, #badadb, #82bbbd);
+  background-image: -moz-linear-gradient(top, #badadb, #82bbbd);
+  background-image: -ms-linear-gradient(top, #badadb, #82bbbd);
+  background-image: -o-linear-gradient(top, #badadb, #82bbbd);
+  background-image: linear-gradient(to bottom, #badadb, #82bbbd);
+  text-decoration: none;
 }
